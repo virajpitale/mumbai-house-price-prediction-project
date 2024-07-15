@@ -1,0 +1,82 @@
+/* styles.css */
+/* Add your custom styles here */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /* Keep form elements aligned left */
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto 0; /* Adjust top margin as needed */
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Center the predicted price container and its contents */
+#predictedPriceContainer {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#predictedPriceContainer p {
+    font-size: 24px;
+    margin: 0;
+}
+
+#predictedPriceLabel {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#predictedPriceValue {
+    font-size: 24px;
+    color: #333;
+}
